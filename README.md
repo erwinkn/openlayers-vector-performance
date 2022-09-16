@@ -16,7 +16,7 @@ The layer in question has 7,882 features and 68,921 points according to PostGIS:
 (1 row)
 ```
 
-The performance issue is a bit surprising, since OpenLayers has an example where they render a LineString of 700,000+ points without any issue: https://openlayers.org/en/latest/examples/fractal.html
+The performance issue is a bit surprising, since OpenLayers has an example of rendering a LineString of 700,000+ points without any issue: https://openlayers.org/en/latest/examples/fractal.html
 
 The data is a map of electricity prices for different US utilities. The geometries are MultiPolygon, simplified from the exact shape of US counties.
 
