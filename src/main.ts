@@ -8,7 +8,7 @@ import "ol/ol.css";
 async function renderMap() {
 	// Fetches <8k features in practice
 	const res = await fetch(
-		"https://api.brimstone.erwinkn.com:9001/collections/published.electricity_prices/items.json?limit=50000"
+		"https://api.brimstone.erwinkn.com:9001/collections/published.electricity_prices_perf_issue/items.json?limit=50000"
 	);
 	const data = await res.json();
 
