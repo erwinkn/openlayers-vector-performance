@@ -1,5 +1,5 @@
 // Converts geojson-vt data to GeoJSON
-export function geojsonIndexReplacer(key: string, value: any) {
+export function geojsonIndexReplacer(_: string, value: any) {
   if (!value || !value.geometry) {
     return value;
   }

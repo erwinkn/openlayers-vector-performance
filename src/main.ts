@@ -5,7 +5,6 @@ import VectorLayer from "ol/layer/Vector";
 import OLGeoJSON from "ol/format/GeoJSON";
 import VectorTileLayer from "ol/layer/VectorTile";
 import VectorTileSource from "ol/source/VectorTile";
-import { Fill, Style } from "ol/style";
 import { Projection } from "ol/proj";
 import { geojsonIndexReplacer } from "./geojson-vt";
 import { WebGLLayer } from "./webgl";
